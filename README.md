@@ -1,4 +1,4 @@
-# create_notes
+# Create Notes Online
 You can access this project [online](http://sharenotes.xyz).  
 In this project I have used -  
 **Technologies :**
