@@ -1,0 +1,6 @@
+1./
+check both username and email when registering users.
+2./
+on clicking close btn on tag, tag must be remove.
+3./
+

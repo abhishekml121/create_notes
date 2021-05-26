@@ -1,0 +1,89 @@
+<html>
+<head>
+	<title></title>
+	<style>
+		.sstaggering-start-value-demo {
+		    position: relative;
+		    background: #a2a1a1;
+		}
+		.sstaggering-start-value-demo > .el {
+		    position: absolute;
+		    width: 70px;
+		    height: 70px;
+		}
+		span.el.back_logo.level1_logo {
+		    z-index: -1;
+		    background: #f3d7a4;
+		}
+		span.el.back_logo.level2_logo {
+		    z-index: -2;
+		    padding: 1px;
+		    background: black;
+		    /*transform: rotate(-4deg);*/
+		    box-shadow: 10px 10px 25px -15px black;
+		}
+		span.el.back_logo.level3_logo {
+		    z-index: -3;
+		    background: violet;
+		    /*transform: rotate(5deg);*/
+		    box-shadow: 10px 0px 20px -20px violet;
+		}
+		span.el.back_logo.level4_logo {
+		    z-index: -4;
+		    background: tomato;
+		    /*transform: rotate(-10deg);*/
+		    box-shadow: -10px 15px 20px -15px tomato;
+		}
+		span.el.toppest_logo {
+		    display: flex;
+		        justify-content: center;
+		        align-items: center;
+		        background: darkcyan;
+		        font-size: 16px;
+		}
+
+</style>
+	<script src="./anime.min.js"></script>
+</head>
+<body>
+
+	<div class="sstaggering-start-value-demo">
+		<span class="el back_logo level2_logo"></span>
+		<span class="el back_logo level3_logo"></span>
+		<span class="el back_logo level4_logo"></span>
+		<span class="el toppest_logo">Save notes</span>
+	</div>
+
+	<div class="hh" style="width: 100px;height: 100px;background-color: red;"></div>
+
+
+	<script>
+		let d = document.querySelector('.hh');
+		anime({
+		  targets: d,
+		  scale:[0.5,1,0.5]
+		});
+		anime({
+		  targets: '.level2_logo',
+		  rotate: '-4deg',
+		  easing: 'easeOutElastic(1, .8)',
+		  delay:'500'
+		});
+
+		anime({
+		  targets: '.level3_logo',
+		  rotate: '5deg',
+		  easing: 'easeOutElastic(1, .8)',
+		  delay:'600'
+		});
+		anime({
+		  targets: '.level4_logo',
+		  rotate: '-10deg',
+		  delay:'700',
+		  easing: 'easeOutElastic(1, .8)'
+		});
+		
+	</script>
+
+</body>
+</html>

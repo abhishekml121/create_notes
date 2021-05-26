@@ -1,0 +1,53 @@
+0. []
+Add new text editor for premium users.
+Features like addgin colors etc.
+
+1. []
+while creating quick note with the id `POP` and `pop` are currently both same.
+similarly for username  while creating user account.
+
+2. []
+save note as draft for note also like as quick note.
+
+3. []
+use z-index correctly in home page.
+
+4. []
+use keyboard arrow UP DOWN for select the hinted word like subject name, tag name.
+
+6. []
+make responsive our website.
+
+7. []
+use payment gateway for support.
+
+8. [--]
+Only accept [a-zA-Z0-9_] for quick_note password and account password.
+
+
+9. []
+Add audio for user input. Eg, input error, note saved etc
+
+10. [--]
+Move all function definition in new file function.js
+
+11. [--]
+Write validation function for password which will only acccept word char in PHP.
+(user reg, quick_note_creation)
+
+12. [--]
+Seperate common CSS, common JS functions, common CSS animations (@keyframes) for other projects.
+
+13. [--]
+Remove all dynamic button content from ajax.
+
+14. [--]
+If you write username as ᵀᴹ°᭄ᴀɢᴇɴᴛ乂ᴀʀᴍʏ then it is giving error [username must be btwn 4 and 30 characters]
+
+15. [--]
+Show paswd / hide paswd functionality in web pages.
+
+
+
+
+
