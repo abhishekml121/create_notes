@@ -16,5 +16,6 @@ In this project I have used -
 **Text editor :**
 - Sublime 3  
 ---
-Visit my portfolio -
+For more information about me -
+Please visit my portfolio -
 [portfolio](http://portfolio.sharenotes.xyz/)
