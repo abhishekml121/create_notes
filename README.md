@@ -3,7 +3,7 @@ You can practically enjoy with this project [online](http://sharenotes.xyz).
 In this project I have used -  
 **Technologies :**
 - HTML5
-- CSS
+- CSS3
 - JAVASCRIPT
 - JSON
 - AJAX
