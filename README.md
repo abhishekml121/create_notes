@@ -1,5 +1,5 @@
 # Create Notes Online
-You can access this project [online](http://sharenotes.xyz).  
+You can practically enjoy with this project [online](http://sharenotes.xyz).  
 In this project I have used -  
 **Technologies :**
 - HTML5
