@@ -17,5 +17,5 @@ In this project I have used -
 - Sublime 3  
 ---
 For more information about me -
-Please visit my portfolio :
+Please visit my 
 [portfolio](http://portfolio.sharenotes.xyz/)
